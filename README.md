@@ -1,7 +1,6 @@
 <h1 align="center"> Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> I'm Abhishek</h1>
 
 <img align="center" src="Abhishek Banner -1.png">
-<sub>credit to Vedant-Kakde for the banner</sub>
 
 <!--
 ## 👨‍💻 About Me
