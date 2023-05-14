@@ -8,6 +8,9 @@ My name is <b>Abhishek Kumar</b> and I work at [Layer5](https://layer5.io/) as a
 
 <br />
 <br />
+<p align="center">
+  <img alig src="https://github-profile-trophy.vercel.app/?username=Abhishek-kumar09&column=6&rank=SSS,SS,S,AAA,AA,A,B,C" />
+</p>
 <br />
 
 ## 👩🏼‍🤝‍🧑🏻 Socials
