@@ -9,7 +9,7 @@ My name is <b>Abhishek Kumar</b> and I work at [Layer5](https://layer5.io/) as a
 <br />
 <br />
 <p align="center">
-  <img alig src="https://github-profile-trophy.vercel.app/?username=Abhishek-kumar09&column=6&rank=SSS,SS,S,AAA,AA,A,B,C" />
+  <img alig src="https://github-profile-trophy.vercel.app/?username=Abhishek-kumar09&column=6&rank=SSS,SS,S,AAA,AA,A,B,C&theme=juicyfresh" />
 </p>
 <br />
 
@@ -42,7 +42,7 @@ My name is <b>Abhishek Kumar</b> and I work at [Layer5](https://layer5.io/) as a
 
 ## 📈 GitHub Stats
 
-![](https://activity-graph.herokuapp.com/graph?username=Abhishek-kumar09&theme=dracula&hide_border=true)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-kumar09&bg_color=211c20&color=88ff25&line=ffdc63&point=8aff63&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <p align="center">
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abhishek-kumar09&amp;show_icons=true&amp;theme=dracula&amp;include_all_commits=true&amp;count_private=true" style="max-width:100%;">
