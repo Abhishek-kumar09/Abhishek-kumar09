@@ -45,9 +45,9 @@ My name is <b>Abhishek Kumar</b> and I work at [Layer5](https://layer5.io/) as a
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-kumar09&bg_color=211c20&color=88ff25&line=ffdc63&point=8aff63&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <p align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abhishek-kumar09&amp;show_icons=true&amp;theme=dracula&amp;include_all_commits=true&amp;count_private=true" style="max-width:100%;">
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abhishek-kumar09&amp;show_icons=true&amp;theme=merko&amp;include_all_commits=true&amp;count_private=true" style="max-width:100%;">
 
-<img height="180em" style="max-width:100%;" src="https://github-readme-streak-stats.herokuapp.com?user=Abhishek-kumar09&theme=dracula">
+<img height="180em" style="max-width:100%;" src="https://github-readme-streak-stats.herokuapp.com?user=Abhishek-kumar09&theme=merko">
  </p>
 
 
