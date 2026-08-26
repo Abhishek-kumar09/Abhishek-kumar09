@@ -60,7 +60,6 @@ async function fetchStats(login) {
   const d = json.data;
   const contributions = years.reduce((n, y) => n + d[`y${y}`].contributionsCollection.contributionCalendar.totalContributions, 0);
   return {
-    fetchedAt: new Date().toISOString(),
     createdAt: d.user.createdAt,
     followers: d.user.followers.totalCount,
     merged: d.merged.issueCount,
