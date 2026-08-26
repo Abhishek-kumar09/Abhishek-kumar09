@@ -71,7 +71,22 @@ async function fetchStats(login) {
 let stats;
 try {
   stats = await fetchStats(profile.login);
-  if (stats) write("data/stats.json", JSON.stringify(stats, null, 2) + "\n");
+  if (stats) {
+    // The search index answers from replicas that disagree by a few PRs, so
+    // a fresh count can come back lower than yesterday's. Counts only grow in
+    // practice; never let a replica roll one back.
+    let cached = null;
+    try {
+      cached = read("data/stats.json");
+    } catch {
+      /* first run */
+    }
+    if (cached) {
+      stats.merged = Math.max(stats.merged, cached.merged ?? 0);
+      stats.reviews = Math.max(stats.reviews, cached.reviews ?? 0);
+    }
+    write("data/stats.json", JSON.stringify(stats, null, 2) + "\n");
+  }
 } catch (err) {
   console.warn(`stats fetch failed, using cache: ${err.message}`);
 }
