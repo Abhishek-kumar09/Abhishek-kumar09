@@ -1,0 +1,9 @@
+{
+  "name": "abhishek-kumar09",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node scripts/render.mjs",
+    "avatar": "node scripts/avatar.mjs"
+  }
+}

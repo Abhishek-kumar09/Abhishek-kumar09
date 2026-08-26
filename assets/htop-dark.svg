@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="468" viewBox="0 0 900 468" font-family='ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", "Liberation Mono", monospace' font-size="13">
+<style>
+  text { white-space: pre; }
+  .ty { font-size: 0; animation: ty .001s linear forwards; }
+  .in { opacity: 0; animation: in .28s ease-out forwards; }
+  .bar { transform: scaleX(0); transform-origin: left; animation: bar .9s cubic-bezier(.2,.7,.2,1) forwards; }
+  .cur { animation: blink 1.1s step-end infinite; }
+  .cur-off { animation: blink 1.1s step-end infinite, off .001s linear forwards; }
+  .halo { stroke-width: 3px; paint-order: stroke; stroke-linejoin: round; }
+  @keyframes ty { to { font-size: 13px; } }
+  @keyframes in { to { opacity: 1; } }
+  @keyframes bar { to { transform: scaleX(1); } }
+  @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  @keyframes off { to { opacity: 0; } }
+</style>
+<rect width="900" height="468" rx="12" fill="#0b0f14"/>
+<path d="M12 0h876a12 12 0 0 1 12 12v24H0V12A12 12 0 0 1 12 0z" fill="#161b22"/>
+<rect x="0" y="36" width="900" height="1" fill="#30363d"/>
+<circle cx="20" cy="18" r="6" fill="#ff7b72"/><circle cx="40" cy="18" r="6" fill="#e3b341"/><circle cx="60" cy="18" r="6" fill="#7ee787"/>
+<text x="450" y="22.5" text-anchor="middle" fill="#8b949e" font-size="12">abhishek@github: ~ — htop</text>
+<rect x="0" y="0" width="900" height="468" rx="12" fill="none" stroke="#30363d"/>
+<text x="28" y="62" fill="#56d4dd" font-weight="700">  1</text>
+<text x="64" y="62" fill="#c9d1d9">[</text>
+<rect class="bar" x="72" y="50" width="348" height="14" fill="#7ee787" style="animation-delay:0.20s"/>
+<text x="428" y="62" fill="#c9d1d9">]</text>
+<text class="halo" x="422" y="62" text-anchor="end" fill="#c9d1d9" stroke="#0b0f14" font-size="12">100.0% product</text>
+<text class="in" x="476" y="62" fill="#c9d1d9" style="animation-delay:0.40s">Tasks: 11 running, 0 sleeping · 461 PRs merged</text>
+<text x="28" y="82" fill="#56d4dd" font-weight="700">  2</text>
+<text x="64" y="82" fill="#c9d1d9">[</text>
+<rect class="bar" x="72" y="70" width="338" height="14" fill="#79c0ff" style="animation-delay:0.32s"/>
+<text x="428" y="82" fill="#c9d1d9">]</text>
+<text class="halo" x="422" y="82" text-anchor="end" fill="#c9d1d9" stroke="#0b0f14" font-size="12">97.0% infra</text>
+<text class="in" x="476" y="82" fill="#c9d1d9" style="animation-delay:0.52s">Load avg: $1.2M raised · 80k+ users · $250K ARR</text>
+<text x="28" y="102" fill="#56d4dd" font-weight="700">  3</text>
+<text x="64" y="102" fill="#c9d1d9">[</text>
+<rect class="bar" x="72" y="90" width="327" height="14" fill="#d2a8ff" style="animation-delay:0.44s"/>
+<text x="428" y="102" fill="#c9d1d9">]</text>
+<text class="halo" x="422" y="102" text-anchor="end" fill="#c9d1d9" stroke="#0b0f14" font-size="12">94.0% ai</text>
+<text class="in" x="476" y="102" fill="#c9d1d9" style="animation-delay:0.64s">Uptime: 7 years, 5 months</text>
+<text x="28" y="122" fill="#56d4dd" font-weight="700">  4</text>
+<text x="64" y="122" fill="#c9d1d9">[</text>
+<rect class="bar" x="72" y="110" width="317" height="14" fill="#ffa657" style="animation-delay:0.56s"/>
+<text x="428" y="122" fill="#c9d1d9">]</text>
+<text class="halo" x="422" y="122" text-anchor="end" fill="#c9d1d9" stroke="#0b0f14" font-size="12">91.0% open source</text>
+<text class="in" x="476" y="122" fill="#c9d1d9" style="animation-delay:0.76s">500+ students mentored · 545 PRs reviewed</text>
+<text x="28" y="142" fill="#56d4dd" font-weight="700">Mem</text>
+<text x="64" y="142" fill="#c9d1d9">[</text>
+<rect class="bar" x="72" y="130" width="278" height="14" fill="#e3b341" style="animation-delay:0.7s"/>
+<text x="428" y="142" fill="#c9d1d9">]</text>
+<text class="halo" x="422" y="142" text-anchor="end" fill="#c9d1d9" stroke="#0b0f14" font-size="12">80k+ users / 3 launches</text>
+<text x="28" y="162" fill="#56d4dd" font-weight="700">Swp</text>
+<text x="64" y="162" fill="#c9d1d9">[</text>
+<rect class="bar" x="72" y="150" width="0" height="14" fill="#ff7b72" style="animation-delay:0.8s"/>
+<text x="428" y="162" fill="#c9d1d9">]</text>
+<text class="halo" x="422" y="162" text-anchor="end" fill="#c9d1d9" stroke="#0b0f14" font-size="12">0K/0K — nothing left on the table</text>
+<rect x="20" y="182" width="860" height="20" fill="#7ee787"/>
+<text x="68" y="196" text-anchor="end" fill="#0b0f14" font-weight="700">PID</text>
+<text x="86" y="196" text-anchor="start" fill="#0b0f14" font-weight="700">USER</text>
+<text x="200" y="196" text-anchor="end" fill="#0b0f14" font-weight="700">PRI</text>
+<text x="240" y="196" text-anchor="end" fill="#0b0f14" font-weight="700">NI</text>
+<text x="260" y="196" text-anchor="start" fill="#0b0f14" font-weight="700">S</text>
+<text x="334" y="196" text-anchor="end" fill="#0b0f14" font-weight="700">CPU%</text>
+<text x="396" y="196" text-anchor="end" fill="#0b0f14" font-weight="700">MEM%</text>
+<text x="468" y="196" text-anchor="end" fill="#0b0f14" font-weight="700">SINCE</text>
+<text x="490" y="196" text-anchor="start" fill="#0b0f14" font-weight="700">Command</text>
+<g class="in" style="animation-delay:0.90s">
+  <text x="68" y="216" text-anchor="end" fill="#56d4dd">1</text>
+  <text x="86" y="216" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="216" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="216" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="216" fill="#7ee787">R</text>
+  <text x="334" y="216" text-anchor="end" fill="#ff7b72">98.0</text>
+  <text x="396" y="216" text-anchor="end" fill="#c9d1d9">12.4</text>
+  <text x="468" y="216" text-anchor="end" fill="#8b949e">2020</text>
+  <text x="490" y="216" fill="#c9d1d9">typescript --strict</text>
+</g>
+<g class="in" style="animation-delay:0.97s">
+  <text x="68" y="236" text-anchor="end" fill="#56d4dd">2</text>
+  <text x="86" y="236" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="236" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="236" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="236" fill="#7ee787">R</text>
+  <text x="334" y="236" text-anchor="end" fill="#ff7b72">96.5</text>
+  <text x="396" y="236" text-anchor="end" fill="#c9d1d9">10.1</text>
+  <text x="468" y="236" text-anchor="end" fill="#8b949e">2020</text>
+  <text x="490" y="236" fill="#c9d1d9">node --nestjs --express</text>
+</g>
+<g class="in" style="animation-delay:1.04s">
+  <text x="68" y="256" text-anchor="end" fill="#56d4dd">3</text>
+  <text x="86" y="256" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="256" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="256" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="256" fill="#7ee787">R</text>
+  <text x="334" y="256" text-anchor="end" fill="#ff7b72">95.0</text>
+  <text x="396" y="256" text-anchor="end" fill="#c9d1d9">9.8</text>
+  <text x="468" y="256" text-anchor="end" fill="#8b949e">2020</text>
+  <text x="490" y="256" fill="#c9d1d9">react --next</text>
+</g>
+<g class="in" style="animation-delay:1.11s">
+  <text x="68" y="276" text-anchor="end" fill="#56d4dd">4</text>
+  <text x="86" y="276" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="276" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="276" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="276" fill="#7ee787">R</text>
+  <text x="334" y="276" text-anchor="end" fill="#ffa657">88.0</text>
+  <text x="396" y="276" text-anchor="end" fill="#c9d1d9">6.2</text>
+  <text x="468" y="276" text-anchor="end" fill="#8b949e">2021</text>
+  <text x="490" y="276" fill="#c9d1d9">kubectl apply -f infra/    · docker</text>
+</g>
+<g class="in" style="animation-delay:1.18s">
+  <text x="68" y="296" text-anchor="end" fill="#56d4dd">5</text>
+  <text x="86" y="296" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="296" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="296" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="296" fill="#7ee787">R</text>
+  <text x="334" y="296" text-anchor="end" fill="#ffa657">86.0</text>
+  <text x="396" y="296" text-anchor="end" fill="#c9d1d9">5.0</text>
+  <text x="468" y="296" text-anchor="end" fill="#8b949e">2023</text>
+  <text x="490" y="296" fill="#c9d1d9">gcloud · firebase</text>
+</g>
+<g class="in" style="animation-delay:1.25s">
+  <text x="68" y="316" text-anchor="end" fill="#56d4dd">6</text>
+  <text x="86" y="316" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="316" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="316" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="316" fill="#7ee787">R</text>
+  <text x="334" y="316" text-anchor="end" fill="#ffa657">84.0</text>
+  <text x="396" y="316" text-anchor="end" fill="#c9d1d9">4.4</text>
+  <text x="468" y="316" text-anchor="end" fill="#8b949e">2023</text>
+  <text x="490" y="316" fill="#c9d1d9">figma-plugin-api</text>
+</g>
+<g class="in" style="animation-delay:1.32s">
+  <text x="68" y="336" text-anchor="end" fill="#56d4dd">7</text>
+  <text x="86" y="336" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="336" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="336" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="336" fill="#7ee787">R</text>
+  <text x="334" y="336" text-anchor="end" fill="#ffa657">82.0</text>
+  <text x="396" y="336" text-anchor="end" fill="#c9d1d9">4.0</text>
+  <text x="468" y="336" text-anchor="end" fill="#8b949e">2025</text>
+  <text x="490" y="336" fill="#c9d1d9">ai-systems --dept=cyborg</text>
+</g>
+<g class="in" style="animation-delay:1.39s">
+  <text x="68" y="356" text-anchor="end" fill="#56d4dd">8</text>
+  <text x="86" y="356" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="356" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="356" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="356" fill="#8b949e">S</text>
+  <text x="334" y="356" text-anchor="end" fill="#c9d1d9">70.0</text>
+  <text x="396" y="356" text-anchor="end" fill="#c9d1d9">3.1</text>
+  <text x="468" y="356" text-anchor="end" fill="#8b949e">2021</text>
+  <text x="490" y="356" fill="#c9d1d9">go build ./cmd/openebsctl</text>
+</g>
+<g class="in" style="animation-delay:1.46s">
+  <text x="68" y="376" text-anchor="end" fill="#56d4dd">9</text>
+  <text x="86" y="376" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="376" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="376" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="376" fill="#8b949e">S</text>
+  <text x="334" y="376" text-anchor="end" fill="#c9d1d9">66.0</text>
+  <text x="396" y="376" text-anchor="end" fill="#c9d1d9">2.2</text>
+  <text x="468" y="376" text-anchor="end" fill="#8b949e">2019</text>
+  <text x="490" y="376" fill="#c9d1d9">bash · linux</text>
+</g>
+<g class="in" style="animation-delay:1.53s">
+  <text x="68" y="396" text-anchor="end" fill="#56d4dd">10</text>
+  <text x="86" y="396" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="396" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="396" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="396" fill="#8b949e">S</text>
+  <text x="334" y="396" text-anchor="end" fill="#c9d1d9">45.0</text>
+  <text x="396" y="396" text-anchor="end" fill="#c9d1d9">1.0</text>
+  <text x="468" y="396" text-anchor="end" fill="#8b949e">2019</text>
+  <text x="490" y="396" fill="#c9d1d9">flutter run</text>
+</g>
+<g class="in" style="animation-delay:1.60s">
+  <text x="68" y="416" text-anchor="end" fill="#56d4dd">11</text>
+  <text x="86" y="416" fill="#c9d1d9">abhishek</text>
+  <text x="200" y="416" text-anchor="end" fill="#c9d1d9">20</text>
+  <text x="240" y="416" text-anchor="end" fill="#c9d1d9">0</text>
+  <text x="260" y="416" fill="#8b949e">S</text>
+  <text x="334" y="416" text-anchor="end" fill="#c9d1d9">40.0</text>
+  <text x="396" y="416" text-anchor="end" fill="#c9d1d9">0.8</text>
+  <text x="468" y="416" text-anchor="end" fill="#8b949e">2020</text>
+  <text x="490" y="416" fill="#c9d1d9">java -jar checkstyle</text>
+</g>
+<text x="22" y="446" fill="#c9d1d9">F1</text>
+<rect x="48" y="432" width="77.5" height="20" fill="#56d4dd"/>
+<text x="52" y="446" fill="#0b0f14">Help</text>
+<text x="129.5" y="446" fill="#c9d1d9">F2</text>
+<rect x="155.5" y="432" width="77.5" height="20" fill="#56d4dd"/>
+<text x="159.5" y="446" fill="#0b0f14">Setup</text>
+<text x="237" y="446" fill="#c9d1d9">F3</text>
+<rect x="263" y="432" width="77.5" height="20" fill="#56d4dd"/>
+<text x="267" y="446" fill="#0b0f14">Search</text>
+<text x="344.5" y="446" fill="#c9d1d9">F4</text>
+<rect x="370.5" y="432" width="77.5" height="20" fill="#56d4dd"/>
+<text x="374.5" y="446" fill="#0b0f14">Filter</text>
+<text x="452" y="446" fill="#c9d1d9">F5</text>
+<rect x="478" y="432" width="77.5" height="20" fill="#56d4dd"/>
+<text x="482" y="446" fill="#0b0f14">Tree</text>
+<text x="559.5" y="446" fill="#c9d1d9">F6</text>
+<rect x="585.5" y="432" width="77.5" height="20" fill="#56d4dd"/>
+<text x="589.5" y="446" fill="#0b0f14">SortBy</text>
+<text x="667" y="446" fill="#c9d1d9">F9</text>
+<rect x="693" y="432" width="77.5" height="20" fill="#56d4dd"/>
+<text x="697" y="446" fill="#0b0f14">Kill</text>
+<text x="774.5" y="446" fill="#c9d1d9">F10</text>
+<rect x="800.5" y="432" width="77.5" height="20" fill="#56d4dd"/>
+<text x="804.5" y="446" fill="#0b0f14">Quit</text>
+</svg>

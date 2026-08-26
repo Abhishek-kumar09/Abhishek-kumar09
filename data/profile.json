@@ -1,0 +1,47 @@
+{
+  "login": "Abhishek-kumar09",
+  "host": "abhishek@github",
+  "neofetch": [
+    ["OS",         "Linux · macOS — lives in the terminal"],
+    ["Host",       "Cyborg AI — Founding & Infra Engineer"],
+    ["Kernel",     "TypeScript · Node.js · React · Go · Kubernetes"],
+    ["Uptime",     "{uptime} — on GitHub since {since}"],
+    ["Packages",   "{merged} PRs merged · {reviews} reviews · {contributions} contributions"],
+    ["Shell",      "zsh · bash · gh"],
+    ["Resolution", "80k+ users · $1.2M raised · $250K ARR"],
+    ["DE",         "Figma plugins · Chrome & Twitch extensions"],
+    ["WM",         "Docker · Kubernetes · Google Cloud · Firebase"],
+    ["Terminal",   "Delhi, India · UTC+05:30"],
+    ["CPU",        "Founder-mode @ 100% availability"],
+    ["Memory",     "500+ students mentored · {followers} followers"]
+  ],
+  "htop": {
+    "cores": [
+      ["1", 100, "product"],
+      ["2", 97,  "infra"],
+      ["3", 94,  "ai"],
+      ["4", 91,  "open source"]
+    ],
+    "mem":  { "pct": 80, "label": "80k+ users / 3 launches" },
+    "swp":  { "pct": 0,  "label": "0K/0K — nothing left on the table" },
+    "meta": [
+      "Tasks: 11 running, 0 sleeping · {merged} PRs merged",
+      "Load avg: $1.2M raised · 80k+ users · $250K ARR",
+      "Uptime: {uptime}",
+      "500+ students mentored · {reviews} PRs reviewed"
+    ],
+    "procs": [
+      ["1",  "R", 98.0, 12.4, "2020", "typescript --strict"],
+      ["2",  "R", 96.5, 10.1, "2020", "node --nestjs --express"],
+      ["3",  "R", 95.0,  9.8, "2020", "react --next"],
+      ["4",  "R", 88.0,  6.2, "2021", "kubectl apply -f infra/    · docker"],
+      ["5",  "R", 86.0,  5.0, "2023", "gcloud · firebase"],
+      ["6",  "R", 84.0,  4.4, "2023", "figma-plugin-api"],
+      ["7",  "R", 82.0,  4.0, "2025", "ai-systems --dept=cyborg"],
+      ["8",  "S", 70.0,  3.1, "2021", "go build ./cmd/openebsctl"],
+      ["9",  "S", 66.0,  2.2, "2019", "bash · linux"],
+      ["10", "S", 45.0,  1.0, "2019", "flutter run"],
+      ["11", "S", 40.0,  0.8, "2020", "java -jar checkstyle"]
+    ]
+  }
+}
