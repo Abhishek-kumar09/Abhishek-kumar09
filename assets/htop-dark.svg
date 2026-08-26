@@ -24,7 +24,7 @@
 <rect class="bar" x="72" y="50" width="348" height="14" fill="#7ee787" style="animation-delay:0.20s"/>
 <text x="428" y="62" fill="#c9d1d9">]</text>
 <text class="halo" x="422" y="62" text-anchor="end" fill="#c9d1d9" stroke="#0b0f14" font-size="12">100.0% product</text>
-<text class="in" x="476" y="62" fill="#c9d1d9" style="animation-delay:0.40s">Tasks: 11 running, 0 sleeping · 470 PRs merged</text>
+<text class="in" x="476" y="62" fill="#c9d1d9" style="animation-delay:0.40s">Tasks: 11 running, 0 sleeping · 461 PRs merged</text>
 <text x="28" y="82" fill="#56d4dd" font-weight="700">  2</text>
 <text x="64" y="82" fill="#c9d1d9">[</text>
 <rect class="bar" x="72" y="70" width="338" height="14" fill="#79c0ff" style="animation-delay:0.32s"/>
@@ -42,7 +42,7 @@
 <rect class="bar" x="72" y="110" width="317" height="14" fill="#ffa657" style="animation-delay:0.56s"/>
 <text x="428" y="122" fill="#c9d1d9">]</text>
 <text class="halo" x="422" y="122" text-anchor="end" fill="#c9d1d9" stroke="#0b0f14" font-size="12">91.0% open source</text>
-<text class="in" x="476" y="122" fill="#c9d1d9" style="animation-delay:0.76s">500+ students mentored · 547 PRs reviewed</text>
+<text class="in" x="476" y="122" fill="#c9d1d9" style="animation-delay:0.76s">500+ students mentored · 545 PRs reviewed</text>
 <text x="28" y="142" fill="#56d4dd" font-weight="700">Mem</text>
 <text x="64" y="142" fill="#c9d1d9">[</text>
 <rect class="bar" x="72" y="130" width="278" height="14" fill="#e3b341" style="animation-delay:0.7s"/>
