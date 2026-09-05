@@ -36,7 +36,7 @@
 <rect class="bar" x="72" y="90" width="327" height="14" fill="#d2a8ff" style="animation-delay:0.44s"/>
 <text x="428" y="102" fill="#c9d1d9">]</text>
 <text class="halo" x="422" y="102" text-anchor="end" fill="#c9d1d9" stroke="#0b0f14" font-size="12">94.0% ai</text>
-<text class="in" x="476" y="102" fill="#c9d1d9" style="animation-delay:0.64s">Uptime: 7 years, 5 months</text>
+<text class="in" x="476" y="102" fill="#c9d1d9" style="animation-delay:0.64s">Uptime: 7 years, 6 months</text>
 <text x="28" y="122" fill="#56d4dd" font-weight="700">  4</text>
 <text x="64" y="122" fill="#c9d1d9">[</text>
 <rect class="bar" x="72" y="110" width="317" height="14" fill="#ffa657" style="animation-delay:0.56s"/>
